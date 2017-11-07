@@ -1,0 +1,94 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="626457f4-6ea0-4b11-b95a-cf16c5a5a6f9">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="a883d016-1f85-4409-bc81-d8552e8c49f3">
+            <Content.Layers>
+                <Layer Id="d4f827d3-c966-47fa-8c60-f709e0b25fcc" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="5df4e608-326f-4e64-a001-aeb3337636ed" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="ca1284a5-aae4-4fae-912e-3b2eea19dcd3" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="c3bcd75d-63f8-4842-8bf9-fcfba4a6a93f" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/07/2017 12:21:35" Id="2ac342d8-7c4b-40aa-9963-e2384379f38a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2416f5d7-e5ae-4293-98b0-e0701f5eca4c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d4f827d3-c966-47fa-8c60-f709e0b25fcc">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="f1f29010-45c9-4be8-9f2e-5968bb410316" Panel.Bounds="20,34,0*,0*">
+                                    <Group.Children>
+                                        <Title RichText="Lorem Ipsum" Id="061a26d4-7287-40fc-b7a0-b8b88645e451" Panel.Bounds="59,149,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Lorem ipsum dolor sit amet, aliquam blandit vel id, quodsi luptatum indoctum ex cum, eum dicit lobortis conclusionemque te. Vero ipsum ad pri. Ius eu unum dolor, tollit primis an cum. Vis et facilisi neglegentur instructior, fabulas efficiendi dissentiet et vis. Te vix stet unum.&#xD;&#xA;" Id="c3be2f82-87a4-454c-943c-8bfc6c4aa404" Panel.Bounds="27,202,300{5,2147483647},151{5,2147483647}" />
+                                        <Group GroupName="Group" Id="4f25d187-15a8-4e93-b84c-80ed5a5585c8" Panel.Bounds="436,149,0*,0*">
+                                            <Group.Children>
+                                                <Title RichText="Lorem Ipsum2" Id="68a49f17-5a1c-43fa-a029-fd863c66b560" Panel.Bounds="7,0,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Lorem ipsum dolor sit amet, aliquam blandit vel id, quodsi luptatum indoctum ex cum, eum dicit lobortis conclusionemque te. Vero ipsum ad pri. Ius eu unum dolor, tollit primis an cum. Vis et facilisi neglegentur instructior, fabulas efficiendi dissentiet et vis. Te vix stet unum.&#xD;&#xA;" Id="cd94da2f-2faf-4953-b7ee-c65a2ac58026" Panel.Bounds="0,53,300{5,2147483647},151{5,2147483647}" />
+                                                <Link Text="Read more" FontStyle="Normal|Underline" Id="5946aaa5-26b2-4f81-8d31-dbdcd6ba2c0b" Panel.Bounds="206,158,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Read more" FontStyle="Normal|Underline" Id="928d0f54-a9e2-4d2f-9af3-19ef7b7cdf79" Panel.Bounds="206,158,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Title RichText="Lorem Ipsum2" Id="c3fcbe4f-ba73-484f-ac1c-42d04f5db4ee" Panel.Bounds="7,0,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Read more" FontStyle="Normal|Underline" Id="eaf75748-cecf-469e-bc35-69bf3c547fae" Panel.Bounds="206,158,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Read more" FontStyle="Normal|Underline" Id="adcb094c-c036-4ecc-8b56-9ca240fdd7d9" Panel.Bounds="206,158,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Group.Children>
+                                        </Group>
+                                        <Image Id="ac2b47a0-dbc1-4dca-9850-7130f84d259e" Panel.Bounds="0,0,744{5,2147483647},82{5,2147483647}" />
+                                        <Link Text="Read more" FontStyle="Normal|Underline" Id="5a9692db-1a57-455d-8784-3f8069f88106" Panel.Bounds="244,307,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Group GroupName="Group" Id="36ea8222-d236-4f3f-a2c0-897ca859d574" Panel.Bounds="436,345,0*,0*">
+                                            <Group.Children>
+                                                <Title RichText="Lorem Ipsum4" Id="d749dfb1-a281-4338-82d5-d92b7263d747" Panel.Bounds="7,0,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Lorem ipsum dolor sit amet, aliquam blandit vel id, quodsi luptatum indoctum ex cum, eum dicit lobortis conclusionemque te. Vero ipsum ad pri. Ius eu unum dolor, tollit primis an cum. Vis et facilisi neglegentur instructior, fabulas efficiendi dissentiet et vis. Te vix stet unum.&#xD;&#xA;" Id="696dfc77-b3d6-43c0-b82f-63cd74bfa724" Panel.Bounds="0,53,300{5,2147483647},151{5,2147483647}" />
+                                                <Link Text="Read more" FontStyle="Normal|Underline" Id="324c4eb6-8681-40ec-98fd-64adab66d928" Panel.Bounds="206,158,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Read more" FontStyle="Normal|Underline" Id="090ff0ad-7852-413c-b4c5-c880ebf78b2d" Panel.Bounds="206,158,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Title RichText="Lorem Ipsum" Id="c0cfb10f-7d34-4383-bad0-864b61c69f0d" Panel.Bounds="7,0,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Read more" FontStyle="Normal|Underline" Id="13c3c65e-4ac5-45e6-9c0e-26237f7c57e8" Panel.Bounds="206,158,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Link Text="Read more" FontStyle="Normal|Underline" Id="0be7bb53-f8cb-4d58-94f4-794f2b72a8b9" Panel.Bounds="206,158,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Group.Children>
+                                        </Group>
+                                        <Title RichText="Lorem Ipsum3&#xD;&#xA;" Id="45693675-8ad2-4626-ac2f-7dbbb44f16ac" Panel.Bounds="59,345,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="Lorem ipsum dolor sit amet, aliquam blandit vel id, quodsi luptatum indoctum ex cum, eum dicit lobortis conclusionemque te. Vero ipsum ad pri. Ius eu unum dolor, tollit primis an cum. Vis et facilisi neglegentur instructior, fabulas efficiendi dissentiet et vis. Te vix stet unum.&#xD;&#xA;" Id="1d5e0138-4788-4012-b6e4-05a0ef0b2801" Panel.Bounds="27,398,300{5,2147483647},151{5,2147483647}" />
+                                        <Link FontStyle="Normal|Underline" Id="b9eb70d6-6ef9-4147-8c57-53140aa6b4c3" Panel.Bounds="233,503,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Link Text="Read more" FontStyle="Normal|Underline" Id="b5839d49-ee2d-45fc-bdfd-300b0f6f3b59" Panel.Bounds="244,503,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d4f827d3-c966-47fa-8c60-f709e0b25fcc">
+                            <Add.Item>
+                                <Link Text="Edit" FontStyle="Normal|Underline" Id="e5a6a1f4-4270-4a84-b60a-fe0af6aa983e" Panel.Bounds="626,341,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d4f827d3-c966-47fa-8c60-f709e0b25fcc">
+                            <Add.Item>
+                                <Link Text="Edit" FontStyle="Normal|Underline" Id="166ff744-b8d7-48ac-9eab-ab9dba33905c" Panel.Bounds="222,341,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d4f827d3-c966-47fa-8c60-f709e0b25fcc">
+                            <Add.Item>
+                                <Link Text="Edit" FontStyle="Normal|Underline" Id="49d87390-17a3-49ab-a4f8-e48cbeadc1c3" Panel.Bounds="222,537,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d4f827d3-c966-47fa-8c60-f709e0b25fcc">
+                            <Add.Item>
+                                <Link Text="Edit" FontStyle="Normal|Underline" Id="5e55335a-bfe0-437c-9428-e716854eef0d" Panel.Bounds="629,537,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d4f827d3-c966-47fa-8c60-f709e0b25fcc">
+                            <Add.Item>
+                                <Link Text="New Article" FontSize="18" FontStyle="Normal|Underline" Id="b47bdd92-a496-4ee4-843f-8fee8e45d37e" Panel.Bounds="598,135,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
