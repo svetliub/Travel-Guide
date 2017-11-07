@@ -28,27 +28,7 @@
                             <Add.Item>
                                 <BootstrapBox Id="6af4307d-12b8-4abc-b39e-b933aa1b997f" Panel.Layout="Stretch">
                                     <BootstrapBox.Content>
-                                        <BootstrapContainer Id="068c0c18-1112-41ea-9bb2-b07741737ad6">
-                                            <BootstrapContainer.Children>
-                                                <Row Id="fca6a3c3-3756-4415-84ae-8b372f69795a">
-                                                    <Row.Children>
-                                                        <Column Id="df5f13e2-e7e5-42c9-be17-0eed91fc91a7" BootstrapContainer.SpanSm="12" Panel.Bounds="0,0,0*,37" />
-                                                    </Row.Children>
-                                                </Row>
-                                                <Row Id="6f6063c3-6a93-4eca-af38-c682190c767b">
-                                                    <Row.Children>
-                                                        <Column Id="924d1b3f-6d7a-4982-a7f0-fb18b07b157e" BootstrapContainer.SpanSm="4" />
-                                                        <Column Id="111e91cc-2a37-4c19-a1ea-b887d367c296" BootstrapContainer.SpanSm="4" />
-                                                        <Column Id="04acd6f3-1b05-43f0-b803-21d905b6b956" BootstrapContainer.SpanSm="4" />
-                                                    </Row.Children>
-                                                </Row>
-                                                <Row Id="e6841d2a-606d-4603-a3be-fa98d557b5b3">
-                                                    <Row.Children>
-                                                        <Column Id="2fd9052d-ea58-4774-950b-3452730d82a3" BootstrapContainer.SpanSm="12" Panel.Bounds="0,0,0*,34" />
-                                                    </Row.Children>
-                                                </Row>
-                                            </BootstrapContainer.Children>
-                                        </BootstrapContainer>
+                                        <BootstrapContainer Id="068c0c18-1112-41ea-9bb2-b07741737ad6" />
                                     </BootstrapBox.Content>
                                 </BootstrapBox>
                             </Add.Item>
@@ -127,7 +107,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
                             <Add.Item>
-                                <Button Text="Leave comment" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="71f82480-fcaf-4856-a817-35bd34ca7f9f" Panel.Bounds="45,960,157{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Leave comment" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="71f82480-fcaf-4856-a817-35bd34ca7f9f" Panel.Bounds="45,960,113{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
@@ -137,22 +117,42 @@
                         </Add>
                         <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
                             <Add.Item>
-                                <Button Text="Leave comment" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="3d1dfe97-7d58-4f49-817d-0fd714bfd23b" Panel.Bounds="461,960,157{5,2147483647},35{5,2147483647}" />
+                                <Image Scale="-1,-1" Id="89ee744d-5366-4e46-a353-660c4c1288ac" Panel.Bounds="45,61,1190{5,2147483647},124{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
                             <Add.Item>
-                                <Button Text="Add recommendations " Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="2d7a6b94-3963-47a2-947c-3944b27005ba" Panel.Bounds="662,960,157{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Publish" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="eff64f1f-2d9b-4ba1-b72b-4fe759207557" Panel.Bounds="163,960,78{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
                             <Add.Item>
-                                <Button Text="Leave comment" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="0bb635e9-1815-49fe-8dd0-e77ef3d6b322" Panel.Bounds="877,960,157{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Leave comment" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="43f2497b-73c0-46d3-b704-8abc279023b5" Panel.Bounds="461,960,113{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
                             <Add.Item>
-                                <Button Text="Add recommendations " Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="91a3d431-291b-4895-9005-d2980722e733" Panel.Bounds="1078,960,157{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Add recommendations " Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="37edfc6a-95e3-4feb-98d2-71716e91b4d7" Panel.Bounds="662,960,157{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
+                            <Add.Item>
+                                <Button Text="Publish" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="2348f324-0af9-4274-a3e5-f1b8ab2a57eb" Panel.Bounds="579,960,78{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
+                            <Add.Item>
+                                <Button Text="Leave comment" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="9715f790-8ce7-413a-8e88-a8305b1190c2" Panel.Bounds="877,960,113{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
+                            <Add.Item>
+                                <Button Text="Add recommendations " Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="8eee5e33-f052-49cf-8e82-038dee44307c" Panel.Bounds="1078,960,157{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ab1ce4d1-d7a4-4362-a018-672a598d8885">
+                            <Add.Item>
+                                <Button Text="Publish" Background="#FFA3E0AB" CornerRadius="10" FontFamily="Open Sans" Id="15728441-e86c-4ac3-b233-736eb40bdeae" Panel.Bounds="995,960,78{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Set Property="Content.AutoHeight" Value="True" Target="d31d91bb-d829-42bb-b651-7480675dc022" />

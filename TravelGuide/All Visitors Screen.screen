@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                Id="a3589998-d593-4c5b-aaaf-ec627433368e">
+                                                                                   Id="a3589998-d593-4c5b-aaaf-ec627433368e">
     <Page.Content>
         <Content Width="800" Height="600" Id="9e036c02-d92b-49c0-b77b-31386be04044">
             <Content.Layers>
@@ -48,7 +48,7 @@
                                         <Image Id="0096b462-85b7-47c0-9192-1a6b2d8e53ae" Panel.Bounds="0,0,744{5,2147483647},82{5,2147483647}" />
                                         <Link Text="Read more" FontStyle="Normal|Underline" Id="36519f8c-f228-4d98-8867-c59a40bd49eb" Panel.Bounds="244,307,5*{5,2147483647},5*{5,2147483647}">
                                             <Link.Click>
-                                                <CommandNavigate Screen="/Screen1.screen" Created="11/07/2017 12:13:58" Id="2cf301f5-94f7-4c5d-8e4d-e2838815e945">
+                                                <CommandNavigate Screen="/Locations Screen.screen" Created="11/07/2017 12:13:58" Id="2cf301f5-94f7-4c5d-8e4d-e2838815e945">
                                                     <CommandNavigate.Transition>
                                                         <NavigateTransition Duration="0" />
                                                     </CommandNavigate.Transition>
